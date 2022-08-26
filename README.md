@@ -41,16 +41,29 @@ To train the Long Short Term Memory the model selected was a Sequential model tr
 
 The model was then Trained on 2000 epochs.
 
-##Testing in Real time
+## Testing in Real time
 
 These are the testing results in real time from the project after training the data on the LSTM Architecture using MP Holistic
 
 
-
-
-
 https://user-images.githubusercontent.com/77060236/186930052-1e33406e-459e-4f4d-84ef-449e96ac04ca.mp4
 
+
+
+## To run on a new dataset:
+1. CollectData.py
+
+- When the camera opens pose in the Sign Language poses for 30 sequences in 'Hello', 'Thanks', and 'I Love You'.
+
+2. NeuralNetwork.py
+
+- To train the collected data on the Long Short Term Memory Architecture hit run
+
+3. Run.py or RunNoMarker.py
+
+- Test the model in real time
+
+- Run RunNoMarker.py if the user would like to run the model without any of the viewing markers the user can run this file to access the application without any of the landmarks
 
 
 
