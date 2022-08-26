@@ -15,9 +15,38 @@ Draws landmarks of the identified keypoints on the user
 https://user-images.githubusercontent.com/77060236/186928820-d3066a85-0756-4f1d-a51e-398eb5674473.mp4
 
 
-However wth a few extra lines of code > **draw_styled_landmarks(image,results)**
+However wth a few extra lines of code >**draw_styled_landmarks(image,results)**
+
 The keypoints can be color coded for the viewer to identify the different parts of the human
 
 https://user-images.githubusercontent.com/77060236/186929031-bd81b42c-4324-4b85-bfec-ec1b1c1fe1bb.mp4
 
+
+##Collecting the Data
+After the mediapipe has been defined the keypoints must be collected and stored to be trained on later.
+>def extract_keypoints(results)
+
+This takes in the extracted keypoints from the video and concatenated the values into a numpy array.
+
+The collected data is abeled as 'Hello', 'Thanks', and 'I Love You'. In order to collect the data the user poses for the three different action in for 30 sequences for 30 frames. For a total of 90 collectd sequences
+
+The identified keypoints are stored in the folder called MP_Data, with each sequence in its respective action folder in the .npy format
+
+##Training the Long Short Term Memory(**LSTM**)
+
+To train the Long Short Term Memory the model selected was a Sequential model trained on 3 layers and 2 dense layers. Since it is catagorical data the model was compiled as:
+
+>model.compile(optimizer = 'Adam',loss='categorical_crossentropy',metrics=['categorical_accuracy'])
+
+The model was then Trained on 2000 epochs.
+
+##Testing in Real time
+
+These are the testing results in real time from the project after training the data on the LSTM Architecture using MP Holistic
+
+
+
+
+
+https://user-images.githubusercontent.com/77060236/186930052-1e33406e-459e-4f4d-84ef-449e96ac04ca.mp4
 
