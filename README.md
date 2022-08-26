@@ -53,11 +53,11 @@ https://user-images.githubusercontent.com/77060236/186930052-1e33406e-459e-4f4d-
 ## To run on a new dataset:
 1. *CollectData.py*
 
-   When the camera opens pose in the Sign Language poses for 30 sequences in 'Hello', 'Thanks', and 'I Love You'.
+   - When the camera opens pose in the Sign Language poses for 30 sequences in 'Hello', 'Thanks', and 'I Love You'.
 
 2. *NeuralNetwork.py*
 
-   To train the collected data on the Long Short Term Memory Architecture hit run
+   - To train the collected data on the Long Short Term Memory Architecture hit run
 
 3. *Run.py or RunNoMarker.py*
 
