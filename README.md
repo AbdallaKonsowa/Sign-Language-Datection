@@ -57,13 +57,13 @@ https://user-images.githubusercontent.com/77060236/186930052-1e33406e-459e-4f4d-
 
 2. *NeuralNetwork.py*
 
-  To train the collected data on the Long Short Term Memory Architecture hit run
+   To train the collected data on the Long Short Term Memory Architecture hit run
 
 3. *Run.py or RunNoMarker.py*
 
-  - Test the model in real time
+    - Test the model in real time
 
-  - Run RunNoMarker.py if the user would like to run the model without any of the viewing markers the user can run this file to access the application without any of the landmarks
+    - Run RunNoMarker.py if the user would like to run the model without any of the viewing markers the user can run this file to access the application without any of the landmarks
 
 
 
