@@ -11,3 +11,4 @@ These two api calls, are calls the Holistic API uses to identify the keypoints h
 The function >draw_landmarks(image, results)
 
 Draws landmarks of the identified keypoints on the user
+![Untitled video - Made with Clipchamp (2).mp4]([url of image](https://drive.google.com/file/d/13NnMcJPHWmHIs5el6UWP4lW3KDrhAGdD/view?usp=sharing))
