@@ -11,4 +11,13 @@ These two api calls, are calls the Holistic API uses to identify the keypoints h
 The function >draw_landmarks(image, results)
 
 Draws landmarks of the identified keypoints on the user
-![Untitled video - Made with Clipchamp (2).mp4]([url of image](https://drive.google.com/file/d/13NnMcJPHWmHIs5el6UWP4lW3KDrhAGdD/view?usp=sharing))
+
+https://user-images.githubusercontent.com/77060236/186928820-d3066a85-0756-4f1d-a51e-398eb5674473.mp4
+
+
+However wth a few extra lines of code > **draw_styled_landmarks(image,results)**
+The keypoints can be color coded for the viewer to identify the different parts of the human
+
+https://user-images.githubusercontent.com/77060236/186929031-bd81b42c-4324-4b85-bfec-ec1b1c1fe1bb.mp4
+
+
